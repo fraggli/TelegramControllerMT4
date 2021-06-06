@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"ms-vscode.cpptools",
+		"aaron-bond.better-comments",
+		"streetsidesoftware.code-spell-checker",
+		"donjayamanne.git-extension-pack",
+		"nicholishen.mql-extension-pack",
+		"nicholishen.mql-snippets",
+		"nicholishen.mql-over-cpp",
+		"nervtech.mq4",
+		"ms-vscode.powershell"
+	],
+}

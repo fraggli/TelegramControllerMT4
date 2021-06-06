@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile-MQL",
+            "type": "shell",
+            "command": "${workspaceFolder}\\Compile-MQL.ps1 ${file}",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": "build"
+        },
+        {
+            "label": "Run Uncrustify",
+            "type": "shell",
+            "command": "${workspaceFolder}\\formatter\\uncrustify.exe -c ${workspaceFolder}\\formatter\\TomCarrForex.cfg --no-backup ${file}",
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}
